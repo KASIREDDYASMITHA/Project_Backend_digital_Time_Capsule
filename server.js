@@ -1,5 +1,5 @@
 require("dotenv").config();
-require("./src/utils/cronjob");
+require("./src/utils/cronJob");
 
 const adminRoutes = require("./src/routes/adminRoutes");
 const express = require("express");
