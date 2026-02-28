@@ -98,7 +98,7 @@ DELETE /api/capsules/:id    # Delete capsule (if allowed)
 - email
 - password
 - created_at
-```
+
 
 #### Capsules
 
@@ -154,9 +154,9 @@ DELETE /api/capsules/:id    # Delete capsule (if allowed)
 
 
 PORT=5000
-SUPABASE_URL=your_url
-SUPABASE_ANON_KEY=your_key
-JWT_SECRET=your_secret
+SUPABASE_URL=xx
+SUPABASE_ANON_KEY=xxx
+JWT_SECRET=xxxx
 
 
 ## ▶️ Running the Server
@@ -166,7 +166,7 @@ npm run dev
 
 ## ☁️ Deployment
 
-* **Backend:** Render
+* Backend: Render
 
 
 ## ⚠️ Known Limitations
