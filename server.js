@@ -17,7 +17,8 @@ const app = express();
 //app.use(cors()); replavced this with  next line one
 app.use(
   cors({
-    origin: "http://localhost:5173", // your frontend port
+    origin: ["http://localhost:5173",
+    "https://spiffy-cupcake-acdbdc.netlify.app"],
     credentials: true,
   }),
 );
