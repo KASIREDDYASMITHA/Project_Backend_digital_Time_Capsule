@@ -111,13 +111,6 @@ DELETE /api/capsules/:id    # Delete capsule (if allowed)
 - is_locked
 - created_at
 
-
-#### Recipients (Optional Feature)
-
-- id
-- capsule_id (FK)
-- email
-
 ## 🔗 Relationships
 
 * One user → many capsules
